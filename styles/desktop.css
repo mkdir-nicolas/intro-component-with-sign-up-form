@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  gap: 1.7rem;
+  margin: auto;
+  place-content: center;
+  max-width: 1160px;
+}
+
+.start {
+  text-align: start;
+  margin: auto;
+}
+.start h1 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  letter-spacing: -0.08rem;
+}
+.start p {
+  margin-block-start: 26px;
+  font-size: 0.97rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+#myForm {
+  padding: 2.6rem;
+  margin: 0;
+  margin-block-start: 1.3rem;
+}
+
+#myForm input:not(#firstName) {
+  margin-block-start: 1.3rem;
+}
