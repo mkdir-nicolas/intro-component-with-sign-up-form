@@ -39,7 +39,7 @@ input {
   width: 0;
   height: 0;
   position: absolute;
-  left: 100vw;
+  overflow: hidden;
 }
 #footer {
   display: none !important;
